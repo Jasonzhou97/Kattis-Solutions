@@ -12,7 +12,7 @@ public class helpaphd {
                 System.out.println("skipped");
             }
             else{
-                String[] arr = line.split("\\+");
+                String[] arr = line.split("+");
                 int a = Integer.parseInt(arr[0]);
                 int b = Integer.parseInt(arr[1]);
                 System.out.println(a+b);
