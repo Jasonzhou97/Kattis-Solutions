@@ -16,15 +16,15 @@ public class fastfood {
 
             HashMap<Integer,ArrayList<Integer>> map = new HashMap<>();
 
-            sc.nextLine();
+            
             for(int j=0;j<n;j++){
-                String[] line = sc.nextLine().split(" ");
+                int z = sc.nextInt();
                 ArrayList<Integer> arr = new ArrayList<>();
-                for(int k=0;k<line.length-1;k++){
-                    int num = Integer.parseInt(line[k]);
+                for(int k=0;k<z;k++){
+                    int num = sc.nextInt();
                     arr.add(num);
                 }
-                int prize = Integer.parseInt(line[line.length-1]);
+                int prize = sc.nextInt();
                 map.put(prize, arr);
             }
             ArrayList<Integer> array = new ArrayList<>();
